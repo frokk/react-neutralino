@@ -1,0 +1,40 @@
+{
+	"name": "react-neutralino",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "/",
+	"scripts": {
+		"start": "concurrently --raw -k 'npm:start:react' 'npm:start:neu'",
+		"build": "npm run build:react && npm run build:neu",
+
+		"start:react": "react-scripts start",
+		"build:react": "react-scripts build",
+		"test:react": "react-scripts test",
+		"eject:react": "react-scripts eject",
+
+		"start:neu": "neu run --frontend-lib-dev",
+		"build:neu": "neu build --release",
+		"update:neu": "neu update"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"react-scripts": "5.0.0",
+		"concurrently": "^7.0.0",
+		"@neutralinojs/neu": "^9.1.2"
+	}
+}

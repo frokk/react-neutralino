@@ -1,2 +1,2 @@
-# react-neutralino
- A NeutralinoJS Template With React Frontend Lib
+# neutralinojs-zero
+An empty Neutralinojs app, extend as you wish

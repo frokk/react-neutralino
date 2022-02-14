@@ -1,0 +1,46 @@
+{
+	"applicationId": "js.neutralino.react",
+	"version": "1.0.0",
+	"port": 0,
+	"url": "/",
+	"tokenSecurity": "one-time",
+	"defaultMode": "window",
+	"documentRoot": "/build/",
+	"enableServer": true,
+	"enableNativeAPI": true,
+	"nativeBlockList": [],
+	"logging": {
+		"enabled": true,
+		"writeToLogFile": true
+	},
+	"modes": {
+		"window": {
+			"title": "React Neutralinojs",
+			"width": 800,
+			"height": 500,
+			"minWidth": 400,
+			"minHeight": 200,
+			"icon": "/public/icon.png",
+			"fullScreen": false,
+			"alwaysOnTop": false,
+			"enableInspector": true,
+			"borderless": false,
+			"maximize": false,
+			"hidden": false,
+			"resizable": true,
+			"exitProcessOnClose": true
+		}
+	},
+	"cli": {
+		"binaryName": "react-neutralino",
+		"frontendLibrary": {
+			"patchFile": "/public/index.html",
+			"devUrl": "http://localhost:3000"
+		},
+		"resourcesPath": "/build/",
+		"extensionsPath": "/extensions/",
+		"clientLibrary": "/public/neutralino.js",
+		"binaryVersion": "4.2.0",
+		"clientVersion": "3.1.0"
+	}
+}
