@@ -23,6 +23,11 @@ Install the dependencies...
 
 ```bash
 npm install
+```
+
+Get the latest Neutralino Binaries & Client Library...
+
+```bash
 npx neu update
 ```
 
