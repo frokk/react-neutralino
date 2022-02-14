@@ -9,12 +9,9 @@
 
 		"start:react": "react-scripts start",
 		"build:react": "react-scripts build",
-		"test:react": "react-scripts test",
-		"eject:react": "react-scripts eject",
 
 		"start:neu": "neu run --frontend-lib-dev",
-		"build:neu": "neu build --release",
-		"update:neu": "neu update"
+		"build:neu": "neu build --release"
 	},
 	"browserslist": {
 		"production": [
