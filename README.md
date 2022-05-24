@@ -6,7 +6,7 @@ Neutralino App With React As Frontend Framework
 ---
 ## New Project
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+To create a new project based on this template:
 
 ```bash
 npx create-neutralino-app@latest
